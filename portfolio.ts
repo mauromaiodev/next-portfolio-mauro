@@ -135,7 +135,7 @@ export const experience: ExperienceType[] = [
     company: 'ACP Group - Avansys',
     companyLogo: '/img/icons/common/acp-logo.jpg',
     date: 'Mar 2022 – Abr 2023',
-    desc: 'Desenvolvimento de sistemas Web de alta escala, como os projetos na Secretaria de Educação da Bahia, que registrou milhões de acessos. \nUtilizei tecnologias como React, Redux, TypeScript, Axios e React Query para desenvolver soluções eficientes e escaláveis',
+    desc: 'Desenvolvimento de sistemas Web de alta escala, como os projetos na Secretaria de Educação da Bahia, que registrou milhões de acessos. Utilizei tecnologias como React, Redux, TypeScript, Axios e React Query para desenvolver soluções eficientes e escaláveis',
   },
   {
     role: 'Fullstack Developer',
