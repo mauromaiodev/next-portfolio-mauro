@@ -4,12 +4,12 @@
 
 <p align="center">
   <kbd>
-    <img src="![image](https://github.com/mauromaiodev/next-portfolio-mauro/assets/78114855/9ffaa573-defe-44fc-87ab-f2fee938321e)
+    <img src="https://github.com/mauromaiodev/next-portfolio-mauro/assets/78114855/9ffaa573-defe-44fc-87ab-f2fee938321e
 "></img>
   </kbd>
 </p>
 
-## To view a live example, **[click here](https://https://mauromaio.vercel.app//)**.
+## To view a live example, **[click here](https://https://mauromaio.vercel.app/)**.
 
 ## Sections
 
