@@ -4,7 +4,7 @@
 
 <p align="center">
   <kbd>
-    <img src="![image](https://github.com/mauromaiodev/next-portfolio-mauro/assets/78114855/f0fa3a26-b118-41b3-97bf-c5e7e77ddd2b)
+    <img src="![image](https://drive.google.com/file/d/1g1euzfbMmgAmYQ8zw3odeRqf67STYOqR/view?usp=sharing)
 "></img>
   </kbd>
 </p>
