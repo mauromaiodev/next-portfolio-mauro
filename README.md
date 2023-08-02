@@ -8,7 +8,7 @@
   </kbd>
 </p>
 
-## To view a live example, **[click here](https://https://mauromaio.vercel.app//)**.
+## To view a live example, **[click here](https://https://mauromaio.vercel.app/)**.
 
 ## Sections
 
