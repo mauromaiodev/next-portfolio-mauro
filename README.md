@@ -4,7 +4,7 @@
 
 <p align="center">
   <kbd>
-    <img src="https://ibb.co/YXcdtxc"></img>
+    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
   </kbd>
 </p>
 
