@@ -1,7 +1,6 @@
-import React from 'react';
+import { Col, Container, Row } from 'reactstrap';
 import EducationCard from '../components/EducationCard';
 import { educationInfo } from '../portfolio';
-import { Container, Row, Col } from 'reactstrap';
 
 const Education = () => {
   return (
@@ -15,7 +14,7 @@ const Education = () => {
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-3 text-white">Education</h4>
+              <h4 className="display-3 text-white">Formações/Certificados</h4>
             </div>
           </div>
           <Row className="row-grid align-items-center">

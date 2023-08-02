@@ -1,20 +1,20 @@
-import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import classnames from 'classnames';
+import React, { useRef, useState } from 'react';
 import Alert from './Alerts';
 
 import {
   Button,
   Card,
   CardBody,
+  Col,
+  Container,
   FormGroup,
   Input,
+  InputGroup,
   InputGroupAddon,
   InputGroupText,
-  InputGroup,
-  Container,
   Row,
-  Col,
 } from 'reactstrap';
 
 export const ContactUs = () => {
@@ -91,10 +91,8 @@ export const ContactUs = () => {
               <Col lg="8">
                 <Card className="bg-gradient-secondary shadow">
                   <CardBody className="p-lg-5">
-                    <h4 className="mb-1">Want to work with me?</h4>
-                    <p className="mt-0">
-                      Reach out to me using the form below.
-                    </p>
+                    <h4 className="mb-1">Quer trabalhar comigo?</h4>
+                    <p className="mt-0">Use o formulário abaixo.</p>
                     <FormGroup className={classnames('mt-5', {})}>
                       <InputGroup className="input-group-alternative">
                         <InputGroupAddon addonType="prepend">
@@ -103,7 +101,7 @@ export const ContactUs = () => {
                           </InputGroupText>
                         </InputGroupAddon>
                         <Input
-                          placeholder="Your name"
+                          placeholder="Nome"
                           type="text"
                           name="user_name"
                         />
@@ -117,7 +115,7 @@ export const ContactUs = () => {
                           </InputGroupText>
                         </InputGroupAddon>
                         <Input
-                          placeholder="Email address"
+                          placeholder="Email"
                           name="user_email"
                           type="email"
                         />
@@ -128,7 +126,7 @@ export const ContactUs = () => {
                         className="form-control-alternative"
                         cols="80"
                         name="user_message"
-                        placeholder="Type a message..."
+                        placeholder="Mensagem..."
                         rows="4"
                         type="textarea"
                       />
@@ -141,7 +139,7 @@ export const ContactUs = () => {
                         size="lg"
                         type="submit"
                       >
-                        Send Message
+                        Enviar Mensagem
                       </Button>
                     </div>
                   </CardBody>

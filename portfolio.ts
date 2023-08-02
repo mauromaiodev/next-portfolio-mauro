@@ -6,7 +6,6 @@ import {
   GreetingsType,
   ProjectType,
   SEODataType,
-  SkillBarsType,
   SkillsSectionType,
   SocialLinksType,
 } from './types/sections';
@@ -15,7 +14,7 @@ export const greetings: GreetingsType = {
   name: 'Mauro Maio',
   title: 'Mauro Maio',
   description:
-    "I'm passionate Front End web developer having an experience of web applications with React.js, Vue.js, Next.js and Nuxt.js development.",
+    'Sou um desenvolvedor front-end apaixonado com experiência em aplicações web com desenvolvimento React.js, Vue.js, Next.js e Nuxt.js.',
   resumeLink:
     'https://drive.google.com/file/d/1oMhLEnmiZAlLH5eIHdEM28ZXo8jCTiTm/view',
 };
@@ -34,18 +33,17 @@ export const socialLinks: SocialLinksType = {
 };
 
 export const skillsSection: SkillsSectionType = {
-  title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  title: 'O que faço?',
+  subTitle: 'FRONT END DEVELOPER APAIXONADO POR TECNOLOGIA E INOVAÇÃO',
   data: [
     {
-      title: 'Full Stack Development',
+      title: 'Front End Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
+          '⚡ Construindo Aplicativos de Página Única (SPA) responsivos e PWA em React.js'
         ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Construindo sites estáticos responsivos usando Next.js'),
       ],
       softwareSkills: [
         {
@@ -69,15 +67,6 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'vscode-icons:file-type-light-next',
         },
         {
-          skillName: 'Python',
-          iconifyTag: 'logos:python',
-        },
-        {
-          skillName: 'Django',
-          iconifyTag: 'vscode-icons:file-type-django',
-        },
-
-        {
           skillName: 'Redux',
           iconifyTag: 'logos:redux',
         },
@@ -92,34 +81,22 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      title: 'Cloud Infra-Architecture',
+      title: 'Arquitetura Cloud',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
+        emoji('⚡ Experiência de trabalho em várias plataformas de nuvem'),
         emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
+          '⚡ Hospedagem e manutenção de sites em instâncias de máquinas virtuais'
         ),
         emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
+          '⚡ Construindo pipelines de CI/CD para testes e implantação automatizados usando o Github Actions'
         ),
       ],
       softwareSkills: [
         // ? Check README To get icon details
         {
-          skillName: 'AWS',
-          iconifyTag: 'logos:aws',
-        },
-        {
-          skillName: 'Azure',
-          iconifyTag: 'logos:microsoft-azure',
-        },
-        {
-          skillName: 'Heroku',
-          iconifyTag: 'logos:heroku-icon',
-        },
-        {
-          skillName: 'PostgreSQL',
-          iconifyTag: 'logos:postgresql',
+          skillName: 'VERCEL',
+          iconifyTag: 'logos:vercel',
         },
         {
           skillName: 'Github',
@@ -133,125 +110,39 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Github Actions',
           iconifyTag: 'logos:github-actions',
         },
-        {
-          skillName: 'Cloudinary',
-          iconifyTag: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          iconifyTag: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          iconifyTag: 'logos:sentry-icon',
-        },
-      ],
-    },
-    {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          iconifyTag: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          iconifyTag: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          iconifyTag: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          iconifyTag: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          iconifyTag: 'logos:ganache-icon',
-        },
       ],
     },
   ],
 };
 
-export const SkillBars: SkillBarsType[] = [
-  {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
-  },
-  {
-    Stack: 'Backend',
-    progressPercentage: '70',
-  },
-  {
-    Stack: 'Programming',
-    progressPercentage: '60',
-  },
-];
-
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
+    schoolName: 'Anhanguera Educacional',
+    subHeader: 'Análise e Desenvolvimento de Sistemas',
+    duration: 'Jan 2021 - April 2023',
+    desc: 'Criar soluções tecnológicas eficientes para atender às necessidades específicas de organizações e usuários.',
     grade: 'Grade A',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Construção efetiva do software;',
+      'Programação, teste, integração de componentes e o uso de tecnologias específicas para a criação do sistema;',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: 'Analista de Sistemas - WEB',
+    company: 'ACP Group - Avansys',
+    companyLogo: '/img/icons/common/acp-logo.jpg',
+    date: 'Mar 2022 – Abr 2023',
+    desc: 'Desenvolvimento de sistemas Web de alta escala, como os projetos na Secretaria de Educação da Bahia, que registrou milhões de acessos. \nUtilizei tecnologias como React, Redux, TypeScript, Axios e React Query para desenvolver soluções eficientes e escaláveis',
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
-  },
-  {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
-  },
-  {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    role: 'Fullstack Developer',
+    company: 'Kokua IT',
+    companyLogo: '/img/icons/common/kokua-logo.jpg',
+    date: 'Nov 2020 – Mar 2022',
+    desc: 'Fiz parte da equipe de desenvolvimento, criando softwares para a área de gerenciamento de projetos atuando como Fullstack com ênfase em Frontend. Utilizei tecnologias como Vue, Vite, Axios e Vuetify.',
   },
 ];
 

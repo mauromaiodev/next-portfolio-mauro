@@ -1,7 +1,6 @@
-import React from 'react';
-import { experience } from '../portfolio';
 import { Container, Row } from 'reactstrap';
 import ExperienceCard from '../components/ExperienceCard';
+import { experience } from '../portfolio';
 
 const Experience = () => {
   return (
@@ -15,7 +14,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-3 text-info">Experience</h4>
+              <h4 className="display-3 text-info">Experiências</h4>
             </div>
           </div>
           <Row className="row-grid align-items-start">

@@ -1,7 +1,6 @@
-import { feedbacks } from '../portfolio';
-import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import FeedbackCard from '../components/FeedbackCard';
+import { feedbacks } from '../portfolio';
 
 const Feedbacks = () => {
   return (
@@ -15,7 +14,7 @@ const Feedbacks = () => {
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-3 text-info">Our Clients Feedback</h4>
+              <h4 className="display-3 text-info">Feedbacks</h4>
             </div>
           </div>
           <Row className="row-grid align-items-center">

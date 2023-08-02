@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
-import { greetings } from '../portfolio';
-import { Button, Container, Row, Col } from 'reactstrap';
+import { useEffect } from 'react';
+import { Button, Col, Container, Row } from 'reactstrap';
 import GreetingLottie from '../components/DisplayLottie';
 import SocialLinks from '../components/SocialLinks';
+import { greetings } from '../portfolio';
 
 const Greetings = () => {
   useEffect(() => {
@@ -44,7 +44,9 @@ const Greetings = () => {
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">See My Resume</span>
+                        <span className="btn-inner--text">
+                          Acesse meu currículo!
+                        </span>
                       </Button>
                     </div>
                   )}
