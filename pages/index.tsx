@@ -1,7 +1,6 @@
 import dynamic from 'next/dynamic';
-import Contact from '../components/ContactUs';
 import SEO from '../components/SEO';
-import { openSource, showContactUs } from '../portfolio';
+import { openSource } from '../portfolio';
 import { GithubUserType } from '../types';
 const Navigation = dynamic(() => import('../components/Navigation'));
 const Greetings = dynamic(() => import('../containers/Greetings'));
@@ -29,7 +28,7 @@ export default function Home({
       <Experience />
       <Feedbacks />
       <Projects />
-      {showContactUs ? <Contact /> : null}
+      {/* {showContactUs ? <Contact /> : null} */}
       <GithubProfileCard {...githubProfileData} />
     </div>
   );
