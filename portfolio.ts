@@ -14,7 +14,7 @@ export const greetings: GreetingsType = {
   name: 'Mauro Maio',
   title: 'Mauro Maio',
   description:
-    'Sou um desenvolvedor front-end apaixonado com experiência em aplicações web com desenvolvimento React.js, Vue.js, Next.js e Nuxt.js.',
+    'Sou um desenvolvedor front-end apaixonado por tecnologia e inovação com experiência em aplicações web com React.js, Vue.js, Next.js e Nuxt.js.',
   resumeLink:
     'https://drive.google.com/file/d/1oMhLEnmiZAlLH5eIHdEM28ZXo8jCTiTm/view',
 };
