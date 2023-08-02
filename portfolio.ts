@@ -283,10 +283,8 @@ export const showContactUs: boolean = true;
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
   title: 'Mauro Maio',
-  description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
+  description: 'A passionate Front End Web Developer.',
   author: 'Mauro Maio',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  url: 'https://mauromaio.vercel.app/',
   keywords: ['Mauro Maio', 'mauromaiodev', 'Portfolio', 'Mauro Maio Portfolio'],
 };
