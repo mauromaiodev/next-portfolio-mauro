@@ -1,7 +1,6 @@
-import React from 'react';
-import { Card, CardBody, Badge } from 'reactstrap';
-import { EducationType } from '../types/sections';
 import Fade from 'react-reveal/Fade';
+import { Badge, Card, CardBody } from 'reactstrap';
+import { EducationType } from '../types/sections';
 
 const EducationCard = ({
   schoolName,
