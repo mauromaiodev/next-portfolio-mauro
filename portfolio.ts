@@ -260,7 +260,7 @@ export const projects: ProjectType[] = [
     name: 'portfolio-mauro-maio',
     desc: 'Software Developer Portfolio',
     github: 'https://github.com/mauromaiodev/portfolio-mauro-maio',
-    link: 'https://mauromaio.vercel.app/',
+    link: 'https://mauromaioportfolio.vercel.app',
   },
 ];
 
