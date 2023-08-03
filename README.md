@@ -98,4 +98,4 @@ Iconify Icons are used in skill section. You can find all the icons here: [Iconi
 
 - Website: https://mauromaio.vercel.app/
 - Github: [@mauromaiodev](https://github.com/mauromaiodev)
-- LinkedIn: [@mauro-maio-594251163](https://www.linkedin.com/in/mauro-maio-594251163/)
+- LinkedIn: [@mauromaio-dev](https://www.linkedin.com/in/mauromaio-dev/)

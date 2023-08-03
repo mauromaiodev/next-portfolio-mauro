@@ -27,7 +27,7 @@ export const contact = {};
 
 export const socialLinks: SocialLinksType = {
   url: 'https://github.com/mauromaiodev',
-  linkedin: 'https://www.linkedin.com/in/mauro-maio-594251163/',
+  linkedin: 'https://www.linkedin.com/in/mauromaio-dev/',
   github: 'https://github.com/mauromaiodev',
   instagram: 'https://www.instagram.com/mauromaioficial/',
 };
