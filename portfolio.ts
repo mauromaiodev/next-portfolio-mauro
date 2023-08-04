@@ -121,7 +121,6 @@ export const educationInfo: EducationType[] = [
     subHeader: 'Análise e Desenvolvimento de Sistemas',
     duration: 'Jan 2021 - April 2023',
     desc: 'Criar soluções tecnológicas eficientes para atender às necessidades específicas de organizações e usuários.',
-    grade: 'Grade A',
     descBullets: [
       'Construção efetiva do software;',
       'Programação, teste, integração de componentes e o uso de tecnologias específicas para a criação do sistema;',

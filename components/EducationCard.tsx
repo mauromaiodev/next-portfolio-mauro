@@ -21,11 +21,6 @@ const EducationCard = ({
               <Badge color="info" className="mr-1">
                 {duration}
               </Badge>
-              {grade && (
-                <Badge color="primary" className="mr-1">
-                  {grade}
-                </Badge>
-              )}
               <p className="description mt-3">{desc}</p>
               <ul>
                 {descBullets
