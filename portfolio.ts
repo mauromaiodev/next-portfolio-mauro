@@ -82,7 +82,7 @@ export const skillsSection: SkillsSectionType = {
     },
     {
       title: 'Arquitetura Cloud',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: '/lottie/skills/cloudinfra.json',
       skills: [
         emoji('⚡ Experiência de trabalho em várias plataformas de nuvem'),
         emoji(
