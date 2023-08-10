@@ -151,6 +151,12 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/mauromaiodev/portfolio-mauro-maio',
     link: 'https://mauromaioportfolio.vercel.app',
   },
+  {
+    name: 'React Admin Dashboard',
+    desc: 'Completed React Admin Dashboard',
+    github: 'https://github.com/mauromaiodev/react-admin-dashboard',
+    link: 'https://react-adm-dashboard.vercel.app/',
+  },
 ];
 
 export const feedbacks: FeedbackType[] = [
