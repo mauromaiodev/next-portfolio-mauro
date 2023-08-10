@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import { greetings, socialLinks } from '../portfolio';
 import Headroom from 'headroom.js';
+import { useEffect, useState } from 'react';
 import {
-  UncontrolledCollapse,
-  NavbarBrand,
-  Navbar,
+  Col,
+  Container,
+  Nav,
   NavItem,
   NavLink,
-  Nav,
-  Container,
+  Navbar,
+  NavbarBrand,
   Row,
-  Col,
+  UncontrolledCollapse,
 } from 'reactstrap';
+import { greetings, socialLinks } from '../portfolio';
 
 const Navigation = () => {
   const [collapseClasses, setCollapseClasses] = useState('');
@@ -21,7 +21,6 @@ const Navigation = () => {
 
   useEffect(() => {
     let headroom = new Headroom(document.getElementById('navbar-main')!);
-    // initialise
     headroom.init();
   });
 
