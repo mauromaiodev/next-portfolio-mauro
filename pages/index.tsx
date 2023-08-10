@@ -34,10 +34,6 @@ export default function Home({
   );
 }
 
-// Home.prototype = {
-//   githubProfileData: PropTypes.object.isRequired,
-// };
-
 export async function getStaticProps() {
   const githubProfileData: GithubUserType = await fetch(
     `https://api.github.com/users/${openSource.githubUserName}`
