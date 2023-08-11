@@ -157,6 +157,12 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/mauromaiodev/react-admin-dashboard',
     link: 'https://react-adm-dashboard.vercel.app/',
   },
+  {
+    name: 'Controle de despesas',
+    desc: 'Controle financeiro: Inserção e remoção de débitos e saldos',
+    github: 'https://github.com/mauromaiodev/finance-control',
+    link: 'https://finance-control-v1.vercel.app/',
+  },
 ];
 
 export const feedbacks: FeedbackType[] = [
