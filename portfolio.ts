@@ -163,6 +163,12 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/mauromaiodev/finance-control',
     link: 'https://finance-control-v1.vercel.app/',
   },
+  {
+    name: 'To-do List - Ignite Rocketseat',
+    desc: 'Praticando Conceitos - Ignite da Rocketseat',
+    github: 'https://github.com/mauromaiodev/todo-list-ignite',
+    link: 'https://todo-list-ignite-v1.vercel.app/',
+  },
 ];
 
 export const feedbacks: FeedbackType[] = [
