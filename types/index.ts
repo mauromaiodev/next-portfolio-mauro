@@ -1,4 +1,3 @@
-// Can be improved if we can get the response type from Github's API
 export type GithubUserType = {
   login: string;
   id: number;
