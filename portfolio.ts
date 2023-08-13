@@ -169,6 +169,12 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/mauromaiodev/todo-list-ignite',
     link: 'https://todo-list-ignite-v1.vercel.app/',
   },
+  {
+    name: 'Timer - Ignite Rocketseat',
+    desc: 'Praticando Conceitos em React - Ignite da Rocketseat',
+    github: 'https://github.com/mauromaiodev/timer-ignite',
+    link: 'https://timer-ignite-v1.vercel.app/',
+  },
 ];
 
 export const feedbacks: FeedbackType[] = [
