@@ -7,8 +7,6 @@ export type SEODataType = {
   keywords: string[];
 };
 
-// https://www.typescriptlang.org/docs/handbook/2/objects.html#index-signatures
-
 export type SocialLinksType = {
   [link: string]: string;
 };
