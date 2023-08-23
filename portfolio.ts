@@ -14,7 +14,7 @@ export const greetings: GreetingsType = {
   name: 'Mauro Maio',
   title: 'Mauro Maio',
   description:
-    'Sou um desenvolvedor front-end apaixonado por tecnologia e inovação com experiência em aplicações web com React.js, Vue.js, Next.js e Nuxt.js.',
+    'Sou um desenvolvedor Fullstack apaixonado por tecnologia e inovação com experiência em aplicações web com React.js, Vue.js, Next.js, Nuxt.js e Node.js,',
   resumeLink:
     'https://drive.google.com/file/d/1oMhLEnmiZAlLH5eIHdEM28ZXo8jCTiTm/view',
 };
@@ -34,16 +34,18 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'O que faço?',
-  subTitle: 'FRONT END DEVELOPER APAIXONADO POR TECNOLOGIA E INOVAÇÃO',
+  subTitle: 'FULLSTACK DEVELOPER APAIXONADO POR TECNOLOGIA E INOVAÇÃO',
   data: [
     {
-      title: 'Front End Development',
+      title: 'Fullstack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json',
       skills: [
         emoji(
-          '⚡ Construindo Aplicativos de Página Única (SPA) responsivos e PWA em React.js'
+          '⚡ Construindo Aplicativos de Página Única (SPA) responsivos e PWA em React.js/Next.js'
         ),
-        emoji('⚡ Construindo sites estáticos responsivos usando Next.js'),
+        emoji(
+          '⚡ Desenvolvendo APIs e gerenciando banco de dados com Node.js/MongoDB '
+        ),
       ],
       softwareSkills: [
         {
@@ -63,12 +65,24 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'vscode-icons:file-type-reactjs',
         },
         {
+          skillName: 'Redux',
+          iconifyTag: 'logos:redux',
+        },
+        {
           skillName: 'Nextjs',
           iconifyTag: 'vscode-icons:file-type-light-next',
         },
         {
-          skillName: 'Redux',
-          iconifyTag: 'logos:redux',
+          skillName: 'NodeJS',
+          iconifyTag: 'devicon:nodejs-wordmark',
+        },
+        {
+          skillName: 'MongoDB',
+          iconifyTag: 'vscode-icons:file-type-mongo',
+        },
+        {
+          skillName: 'Mongoose',
+          iconifyTag: 'devicon:mongoose-wordmark',
         },
         {
           skillName: 'NPM',
@@ -96,6 +110,14 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'VERCEL',
           iconifyTag: 'logos:vercel',
+        },
+        {
+          skillName: 'AWS',
+          iconifyTag: 'logos:aws',
+        },
+        {
+          skillName: 'AZURE',
+          iconifyTag: 'logos:azure',
         },
         {
           skillName: 'Github',
