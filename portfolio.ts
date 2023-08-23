@@ -147,6 +147,17 @@ export const educationInfo: EducationType[] = [
       'Programação, teste, integração de componentes e o uso de tecnologias específicas para a criação do sistema;',
     ],
   },
+  {
+    schoolName: 'Rocketseat',
+    subHeader: 'Fullstack Developer, Information Technology',
+    duration: 'Mar 2020 - Jul 2020',
+    desc: 'Desenvolvimento de sistemas Web, utilizando ReactJS no frontend, Node.js para a construção do backend, além do app mobile (Android e iOS) com React Native.',
+    descBullets: [
+      'Executando aplicações, como banco de dados PostgreSQL, MongoDB (noSQL) em containers Docker.',
+      'Utilizando Styled Components para estilização dos componentes de interface gráfica.',
+      'Context API e Redux para o gerenciamento de estados do React.',
+    ],
+  },
 ];
 
 export const experience: ExperienceType[] = [
