@@ -179,6 +179,12 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
+    name: 'next-portfolio-mauro',
+    desc: 'Software Developer Portfolio built with Next.js',
+    github: 'https://github.com/mauromaiodev/next-portfolio-mauro',
+    link: 'https://mauromaio.vercel.app/',
+  },
+  {
     name: 'portfolio-mauro-maio',
     desc: 'Software Developer Portfolio',
     github: 'https://github.com/mauromaiodev/portfolio-mauro-maio',
@@ -195,6 +201,12 @@ export const projects: ProjectType[] = [
     desc: 'Controle financeiro: Inserção e remoção de débitos e saldos',
     github: 'https://github.com/mauromaiodev/finance-control',
     link: 'https://finance-control-v1.vercel.app/',
+  },
+  {
+    name: 'Beta Fotografia',
+    desc: 'Portfólio de fotografia feito em React',
+    github: 'https://github.com/mauromaiodev/beta-fotografia',
+    link: 'https://betabahiafotografia.vercel.app/',
   },
   {
     name: 'To-do List - Ignite Rocketseat',
