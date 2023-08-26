@@ -192,9 +192,15 @@ export const projects: ProjectType[] = [
   },
   {
     name: 'React Admin Dashboard',
-    desc: 'Completed React Admin Dashboard',
+    desc: 'React Admin Dashboard',
     github: 'https://github.com/mauromaiodev/react-admin-dashboard',
     link: 'https://react-adm-dashboard.vercel.app/',
+  },
+  {
+    name: 'API com Node.js, MongoDB',
+    desc: 'API com Node, MongoDB, Express, TypeScript, JWT, Criptografia e arquitetura MSC + Routes',
+    github: 'https://github.com/mauromaiodev/node-api-mongo-concepts',
+    link: 'https://github.com/mauromaiodev/node-api-mongo-concepts',
   },
   {
     name: 'Controle de despesas',
