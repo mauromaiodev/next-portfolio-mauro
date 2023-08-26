@@ -200,7 +200,6 @@ export const projects: ProjectType[] = [
     name: 'API com Node.js, MongoDB',
     desc: 'API com Node, MongoDB, Express, TypeScript, JWT, Criptografia e arquitetura MSC + Routes',
     github: 'https://github.com/mauromaiodev/node-api-mongo-concepts',
-    link: 'https://github.com/mauromaiodev/node-api-mongo-concepts',
   },
   {
     name: 'Controle de despesas',
