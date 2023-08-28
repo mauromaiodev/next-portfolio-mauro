@@ -185,10 +185,9 @@ export const projects: ProjectType[] = [
     link: 'https://mauromaio.vercel.app/',
   },
   {
-    name: 'portfolio-mauro-maio',
-    desc: 'Software Developer Portfolio',
-    github: 'https://github.com/mauromaiodev/portfolio-mauro-maio',
-    link: 'https://mauromaioportfolio.vercel.app',
+    name: 'E-commerce Capputeeno',
+    desc: 'E-commerce Capputeeno, desenvolvido como solução do Rocketseat frontend challenge.',
+    github: 'https://github.com/mauromaiodev/challenge-frontend-rocketseat',
   },
   {
     name: 'React Admin Dashboard',
@@ -224,6 +223,12 @@ export const projects: ProjectType[] = [
     desc: 'Praticando Conceitos em React - Ignite da Rocketseat',
     github: 'https://github.com/mauromaiodev/timer-ignite',
     link: 'https://timer-ignite-v1.vercel.app/',
+  },
+  {
+    name: 'portfolio-mauro-maio',
+    desc: 'Software Developer Portfolio',
+    github: 'https://github.com/mauromaiodev/portfolio-mauro-maio',
+    link: 'https://mauromaioportfolio.vercel.app',
   },
 ];
 
