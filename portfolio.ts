@@ -185,7 +185,7 @@ export const projects: ProjectType[] = [
     link: 'https://mauromaio.vercel.app/',
   },
   {
-    name: 'coffee-delivery-challenge',
+    name: 'Coffee Delivery',
     desc: 'Desafio criado pela trilha Ignite da RocketSeat no curso de React',
     github: 'https://github.com/mauromaiodev/coffee-delivery-challenge',
     link: 'https://coffeedelivery-ignite.vercel.app/',
@@ -196,15 +196,15 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/mauromaiodev/challenge-frontend-rocketseat',
   },
   {
+    name: 'API com Node.js, MongoDB',
+    desc: 'API com Node, MongoDB, Express, TypeScript, JWT, Criptografia e arquitetura MSC + Routes',
+    github: 'https://github.com/mauromaiodev/node-api-mongo-concepts',
+  },
+  {
     name: 'React Admin Dashboard',
     desc: 'React Admin Dashboard',
     github: 'https://github.com/mauromaiodev/react-admin-dashboard',
     link: 'https://react-adm-dashboard.vercel.app/',
-  },
-  {
-    name: 'API com Node.js, MongoDB',
-    desc: 'API com Node, MongoDB, Express, TypeScript, JWT, Criptografia e arquitetura MSC + Routes',
-    github: 'https://github.com/mauromaiodev/node-api-mongo-concepts',
   },
   {
     name: 'Controle de despesas',
