@@ -185,6 +185,12 @@ export const projects: ProjectType[] = [
     link: 'https://mauromaio.vercel.app/',
   },
   {
+    name: 'coffee-delivery-challenge',
+    desc: 'Desafio criado pela trilha Ignite da RocketSeat no curso de React',
+    github: 'https://github.com/mauromaiodev/coffee-delivery-challenge',
+    link: 'https://coffeedelivery-ignite.vercel.app/',
+  },
+  {
     name: 'E-commerce Capputeeno',
     desc: 'E-commerce Capputeeno, desenvolvido como solução do Rocketseat frontend challenge.',
     github: 'https://github.com/mauromaiodev/challenge-frontend-rocketseat',
