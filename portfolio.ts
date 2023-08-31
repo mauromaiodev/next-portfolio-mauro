@@ -201,6 +201,11 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/mauromaiodev/node-api-mongo-concepts',
   },
   {
+    name: 'Template Next 13',
+    desc: 'Template com configurações para iniciar qualquer projeto em Next.js',
+    github: 'https://github.com/mauromaiodev/next-react-template',
+  },
+  {
     name: 'React Admin Dashboard',
     desc: 'React Admin Dashboard',
     github: 'https://github.com/mauromaiodev/react-admin-dashboard',
