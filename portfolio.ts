@@ -162,6 +162,13 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
+    role: 'Desenvolvedor Fullstack',
+    company: 'Saúde TV',
+    companyLogo: '/img/icons/common/saudetv-logo.jpg',
+    date: 'Abr 2023 - Atualmente',
+    desc: ' Atuando na construção de soluções utilizando ReactJS, TypeScript, NodeJS, MongoDB, Mongoose, Express, Nest.js, Styled Components, com foco em performance com SSR e otimizações de SEO',
+  },
+  {
     role: 'Analista de Sistemas - WEB',
     company: 'ACP Group - Avansys',
     companyLogo: '/img/icons/common/acp-logo.jpg',
