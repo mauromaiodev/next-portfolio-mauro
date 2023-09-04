@@ -98,7 +98,7 @@ export const skillsSection: SkillsSectionType = {
       title: 'Arquitetura Cloud',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json',
       skills: [
-        emoji('⚡ Experiência de trabalho em várias plataformas de nuvem'),
+        emoji('⚡ Experiência de trabalho em plataformas de nuvem'),
         emoji(
           '⚡ Hospedagem e manutenção de sites em instâncias de máquinas virtuais'
         ),
@@ -114,10 +114,6 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'AWS',
           iconifyTag: 'logos:aws',
-        },
-        {
-          skillName: 'AZURE',
-          iconifyTag: 'logos:azure',
         },
         {
           skillName: 'Github',
