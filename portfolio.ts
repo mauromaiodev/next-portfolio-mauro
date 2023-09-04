@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   description:
     'Sou um desenvolvedor Fullstack apaixonado por tecnologia e inovação com experiência em aplicações web com React.js, Vue.js, Next.js, Nuxt.js e Node.js,',
   resumeLink:
-    'https://drive.google.com/file/d/1oMhLEnmiZAlLH5eIHdEM28ZXo8jCTiTm/view',
+    'https://drive.google.com/file/d/1sg34EV7I5ru2Ob3jEFGkcgBMV0Xtnb1y/view?usp=drive_link',
 };
 
 export const openSource = {
