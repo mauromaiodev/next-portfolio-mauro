@@ -123,10 +123,6 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Docker',
           iconifyTag: 'logos:docker-icon',
         },
-        {
-          skillName: 'Github Actions',
-          iconifyTag: 'logos:github-actions',
-        },
       ],
     },
   ],
