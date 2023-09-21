@@ -56,11 +56,11 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: 'Javascript',
-          iconifyTag: 'devicon:typescript',
+          iconifyTag: 'devicon:javascript',
         },
         {
           skillName: 'Typescript',
-          iconifyTag: 'logos:',
+          iconifyTag: 'devicon:typescript',
         },
         {
           skillName: 'Reactjs',
