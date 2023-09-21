@@ -14,7 +14,7 @@ export const greetings: GreetingsType = {
   name: 'Mauro Maio',
   title: 'Mauro Maio',
   description:
-    'Sou um Desenvolvedor Frontend apaixonado por tecnologia e inovação com experiência em aplicações web com React.js, Vue.js, Next.js e Nuxt.js',
+    'Sou um Desenvolvedor Fullstack apaixonado por tecnologia e inovação com experiência em aplicações web com React.js, Vue.js, Next.js, Nuxt.js e Node.js',
   resumeLink:
     'https://drive.google.com/file/d/1sg34EV7I5ru2Ob3jEFGkcgBMV0Xtnb1y/view?usp=drive_link',
 };
@@ -34,16 +34,19 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'O que faço?',
-  subTitle: 'FRONTEND DEVELOPER APAIXONADO POR TECNOLOGIA E INOVAÇÃO',
+  subTitle: 'FULLSTACK DEVELOPER APAIXONADO POR TECNOLOGIA E INOVAÇÃO',
   data: [
     {
-      title: 'Frontend Development',
+      title: 'Fullstack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json',
       skills: [
         emoji(
           '⚡ Construindo Aplicativos de Página Única (SPA) responsivos e PWA em React.js/Next.js'
         ),
         emoji('⚡ Desenvolvendo soluções através do Javascript/Typescript'),
+        emoji(
+          '⚡ Desenvolvendo APIs e gerenciando banco de dados com Node.js/MongoDB '
+        ),
       ],
       softwareSkills: [
         {
@@ -77,6 +80,14 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'NodeJS',
           iconifyTag: 'devicon:nodejs-wordmark',
+        },
+        {
+          skillName: 'MongoDB',
+          iconifyTag: 'vscode-icons:file-type-mongo',
+        },
+        {
+          skillName: 'Mongoose',
+          iconifyTag: 'devicon:mongoose-wordmark',
         },
         {
           skillName: 'NPM',
@@ -148,11 +159,11 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Desenvolvedor Frontend',
+    role: 'Desenvolvedor Fullstack',
     company: 'Saúde TV',
     companyLogo: '/img/icons/common/saudetv-logo.jpg',
     date: 'Abr 2023 - Atualmente',
-    desc: 'Atuando na construção de soluções WEB utilizando React, Next, Vue, Nuxt, TypeScript, NodeJS, Styled Components, Sass e Tailwind com foco em performance com SSR e otimizações de SEO.',
+    desc: 'Atuando na construção de soluções WEB/API utilizando React, Next, Vue, Nuxt, TypeScript, NodeJS, MongoDB, Mongoose, Express, Styled Components, Sass e Tailwind com foco em performance com SSR e otimizações de SEO.',
   },
   {
     role: 'Analista de Sistemas - WEB',
