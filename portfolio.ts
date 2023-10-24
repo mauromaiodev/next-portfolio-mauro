@@ -14,7 +14,7 @@ export const greetings: GreetingsType = {
   name: 'Mauro Maio',
   title: 'Mauro Maio',
   description:
-    'Sou um Desenvolvedor Fullstack apaixonado por tecnologia e inovação com experiência em aplicações web com React.js, Vue.js, Next.js, Nuxt.js e Node.js',
+    'Sou um Engenheiro de Software apaixonado por tecnologia e inovação com experiência em aplicações web com React.js, Vue.js, Next.js, Nuxt.js e Node.js',
   resumeLink:
     'https://drive.google.com/file/d/1sg34EV7I5ru2Ob3jEFGkcgBMV0Xtnb1y/view?usp=drive_link',
 };
@@ -34,7 +34,7 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'O que faço?',
-  subTitle: 'FULLSTACK DEVELOPER APAIXONADO POR TECNOLOGIA E INOVAÇÃO',
+  subTitle: 'SOFTWARE ENGINEER APAIXONADO POR TECNOLOGIA E INOVAÇÃO',
   data: [
     {
       title: 'Fullstack Development',
@@ -159,21 +159,21 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Desenvolvedor Fullstack',
+    role: 'Engenheiro de Software',
     company: 'Saúde TV',
     companyLogo: '/img/icons/common/saudetv-logo.jpg',
     date: 'Abr 2023 - Atualmente',
     desc: 'Atuando na construção de soluções WEB/API utilizando React, Next, Vue, Nuxt, TypeScript, NodeJS, MongoDB, Mongoose, Express, Styled Components, Sass e Tailwind com foco em performance com SSR e otimizações de SEO.',
   },
   {
-    role: 'Analista de Sistemas - WEB',
+    role: 'Engenheiro de Software',
     company: 'ACP Group - Avansys',
     companyLogo: '/img/icons/common/acp-logo.jpg',
     date: 'Mar 2022 – Abr 2023',
     desc: 'Desenvolvimento de sistemas Web de alta escala, como os projetos na Secretaria de Educação da Bahia, que registrou milhões de acessos. Utilizei tecnologias como React, Redux, TypeScript, Axios e React Query para desenvolver soluções eficientes e escaláveis.',
   },
   {
-    role: 'Fullstack Developer',
+    role: 'Engenheiro de Software',
     company: 'Kokua IT',
     companyLogo: '/img/icons/common/kokua-logo.jpg',
     date: 'Nov 2020 – Mar 2022',
@@ -264,7 +264,7 @@ export const showContactUs: boolean = true;
 
 export const seoData: SEODataType = {
   title: 'Mauro Maio',
-  description: 'A passionate Front End Web Developer.',
+  description: 'Software Engineer.',
   author: 'Mauro Maio',
   url: 'https://mauromaio.vercel.app/',
   keywords: ['Mauro Maio', 'mauromaiodev', 'Portfolio', 'Mauro Maio Portfolio'],
