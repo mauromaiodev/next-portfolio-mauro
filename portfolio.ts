@@ -34,7 +34,7 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'O que faço?',
-  subTitle: 'SOFTWARE ENGINEER APAIXONADO POR TECNOLOGIA E INOVAÇÃO',
+  subTitle: 'CRIO SOLUÇÕES ATRAVÉS DA ENGENHARIA DE SOFTWARE',
   data: [
     {
       title: 'Fullstack Development',
