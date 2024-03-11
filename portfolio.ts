@@ -13,7 +13,8 @@ import {
 export const greetings: GreetingsType = {
   name: 'Mauro Maio',
   title: 'Mauro Maio',
-  description: `Sou um Engenheiro de Software apaixonado por tecnologia, procurando aprender algo novo todos os dias. Tenho experiência em aplicações web com React, Vue, Angular, Next.js, Nuxt.js, Node.js e Java.`,
+  description:
+    'Sou um Engenheiro de Software apaixonado por tecnologia e inovação com experiência em aplicações web com React.js, Vue.js, Next.js, Nuxt.js e Node.js',
   resumeLink:
     'https://drive.google.com/file/d/1sg34EV7I5ru2Ob3jEFGkcgBMV0Xtnb1y/view?usp=drive_link',
 };
@@ -33,7 +34,7 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'O que faço?',
-  subTitle: 'DESENVOLVO SOLUÇÕES ATRAVÉS DA ENGENHARIA DE SOFTWARE',
+  subTitle: 'SOFTWARE ENGINEER APAIXONADO POR TECNOLOGIA E INOVAÇÃO',
   data: [
     {
       title: 'Fullstack Development',
@@ -159,16 +160,9 @@ export const educationInfo: EducationType[] = [
 export const experience: ExperienceType[] = [
   {
     role: 'Engenheiro de Software',
-    company: 'Peregrina Investimentos',
-    companyLogo: '/img/icons/common/peregrina-logo.jpg',
-    date: 'Dez 2023 - Atualmente',
-    desc: 'Desenvolvimento dos projetos da Peregrina Investimentos com Next 13+, trabalho com foco na acessibilidade através das fontes, cores, contrastes e interatividade das aplicações. Utilizo tecnologias como React, Next 13+, TypeScript, Styled Components, Zod, React Hook Form, Axios, Azure DevOps.',
-  },
-  {
-    role: 'Engenheiro de Software',
     company: 'Saúde TV',
     companyLogo: '/img/icons/common/saudetv-logo.jpg',
-    date: 'Abr 2023 - Mar 2024',
+    date: 'Abr 2023 - Atualmente',
     desc: 'Atuando na construção de soluções WEB/API utilizando React, Next, Vue, Nuxt, TypeScript, NodeJS, MongoDB, Mongoose, Express, Styled Components, Sass e Tailwind com foco em performance com SSR e otimizações de SEO.',
   },
   {
