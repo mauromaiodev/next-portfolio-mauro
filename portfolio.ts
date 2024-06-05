@@ -25,10 +25,9 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://github.com/mauromaiodev',
-  linkedin: 'https://www.linkedin.com/in/mauromaio-dev',
-  github: 'https://github.com/mauromaiodev',
   instagram: 'https://www.instagram.com/mauromaioficial/',
+  github: 'https://github.com/mauromaiodev',
+  linkedin: 'https://www.linkedin.com/in/mauromaio-dev',
 };
 
 export const skillsSection: SkillsSectionType = {
