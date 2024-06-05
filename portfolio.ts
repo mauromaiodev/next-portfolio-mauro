@@ -189,8 +189,25 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
+    name: 'Dev Divers',
+    desc: 'Template para projetos Next 13+, TypeScript, Tailwind e modelo para meus projetos SaaS',
+    github: 'https://github.com/mauromaiodev/dev-divers',
+    link: 'https://dev-divers.vercel.app/',
+  },
+  {
+    name: 'Dev Blog',
+    desc: 'Blog feito com Next 14, Upstash (Redis), TypeScript, Tailwind',
+    github: 'https://github.com/mauromaiodev/dev-blog',
+    link: 'https://devdivers-blog.vercel.app/posts',
+  },
+  {
+    name: 'Prod Guardian',
+    desc: 'Sistema para gerenciamento de produtos e fornecedores com autenticação e autorização. Usando Next 13+ e API next, Zustand, MongoDB, JOI.',
+    github: 'https://github.com/mauromaiodev/prod-guardian-next13',
+  },
+  {
     name: 'next-portfolio-mauro',
-    desc: 'Software Developer Portfolio built with Next.js',
+    desc: 'Meu portfolio criado com Next 13+, Typescript, Bootstrap, GraphQL, Moment e React-Tools',
     github: 'https://github.com/mauromaiodev/next-portfolio-mauro',
     link: 'https://mauromaio.vercel.app/',
   },
