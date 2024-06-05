@@ -13,7 +13,7 @@ import {
 export const greetings: GreetingsType = {
   name: 'Mauro Maio',
   title: 'Mauro Maio',
-  description: `Sou um Engenheiro de Software apaixonado por tecnologia, procurando aprender algo novo todos os dias. Tenho experiência em aplicações web com React, Vue, Angular, Next.js, Nuxt.js, Node.js e Java.`,
+  description: `Sou um Engenheiro de Software / Web Developer com mais de três anos de experiência em construir aplicações. Tenho experiência em aplicações web com React, Vue, Angular, Next.js, Nuxt.js, Node.js e Java.`,
   resumeLink:
     'https://drive.google.com/file/d/1sg34EV7I5ru2Ob3jEFGkcgBMV0Xtnb1y/view?usp=drive_link',
 };
@@ -39,12 +39,12 @@ export const skillsSection: SkillsSectionType = {
       title: 'Fullstack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json',
       skills: [
+        emoji('⚡ Desenvolvendo soluções através do Javascript/Typescript'),
         emoji(
           '⚡ Construindo Aplicativos de Página Única (SPA) responsivos e PWA em React.js/Next.js'
         ),
-        emoji('⚡ Desenvolvendo soluções através do Javascript/Typescript'),
         emoji(
-          '⚡ Desenvolvendo APIs e gerenciando banco de dados com Node.js/MongoDB '
+          '⚡ Desenvolvendo APIs e gerenciando banco de dados com Node.js/MongoDB/Supabase '
         ),
       ],
       softwareSkills: [
