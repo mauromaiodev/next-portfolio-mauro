@@ -9,8 +9,8 @@ import '../styles/vendor/nucleo/css/nucleo.css';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Component {...pageProps} />;
-      <Analytics />;
+      <Component {...pageProps} />
+      <Analytics />
     </>
   );
 }
