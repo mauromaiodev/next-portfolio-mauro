@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   title: 'Mauro Maio',
   description: `Sou um Engenheiro de Software / Web Developer com mais de cinco anos de experiência em construir aplicações. Tenho experiência em aplicações web com React, Vue, Angular, Next.js, Nuxt.js, Node.js e Java.`,
   resumeLink:
-    'https://drive.google.com/file/d/1sg34EV7I5ru2Ob3jEFGkcgBMV0Xtnb1y/view?usp=drive_link',
+    'https://drive.google.com/file/d/1kaFBtV8EMwqH4MIHwpTcfyqpSublpIe3/view?usp=drive_link',
 };
 
 export const openSource = {
