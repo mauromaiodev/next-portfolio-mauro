@@ -157,6 +157,13 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
+    role: 'Engenheiro de Software Fullstack Sênior',
+    company: 'GT Group agora é Gröwnt (Dgtallab)',
+    companyLogo: '/img/icons/common/growntbr_logo.jpg',
+    date: 'Dez 2024 - Atualmente',
+    desc: 'Atuação no desenvolvimento de aplicações web modernas com foco principal em frontend utilizando Next.js, garantindo performance, escalabilidade e acessibilidade. Utilizo tecnologias como Next.js (React), TypeScript, HTML5, CSS3, React Query, Zod, React Hook Form, Tailwind, Axios, Node.js, Golang, Docker, Kubernetes, Git, Bitbucket, DevOps (CI/CD), JWT, Keycloak, OAuth, Next-Auth, além de Figma e práticas de acessibilidade (WCAG).',
+  },
+  {
     role: 'Engenheiro de Software',
     company: 'Peregrina Investimentos',
     companyLogo: '/img/icons/common/peregrina-logo.jpg',
@@ -270,6 +277,16 @@ export const projects: ProjectType[] = [
 ];
 
 export const feedbacks: FeedbackType[] = [
+  {
+    name: 'Luiz Morais',
+    feedback:
+      'Mauro é um profissional excepcional. É inteligente, dedicado, estudioso, respeitoso e comprometido. Possui excelentes soft skills e hard skills. Realizamos importantes entregas em projetos do governo, onde Mauro teve uma participação crucial.',
+  },
+  {
+    name: 'Felipe Castro Borges',
+    feedback:
+      'Mauro sempre foi um indivíduo excepcional, cujo esforço e dedicação nunca deixaram de impressionar. Sempre um passo à frente do problema, ele é um verdadeiro líder em sua área, que nunca recua diante dos desafios. Além disso, é uma pessoa maravilhosa e um grande companheiro, cuja presença é um privilégio em qualquer equipe de trabalho. É um prazer imenso ter a oportunidade de trabalhar com alguém tão notável como ele.',
+  },
   {
     name: 'Maurício Dias',
     feedback:
